@@ -2,9 +2,9 @@
 
 namespace DearPOS\DearPOSCore;
 
+use DearPOS\DearPOSCore\Commands\DearPOSCoreCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use DearPOS\DearPOSCore\Commands\DearPOSCoreCommand;
 
 class DearPOSCoreServiceProvider extends PackageServiceProvider
 {
